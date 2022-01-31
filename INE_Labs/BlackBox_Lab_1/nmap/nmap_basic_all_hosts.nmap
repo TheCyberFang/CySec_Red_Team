@@ -1,0 +1,35 @@
+# Nmap 7.92 scan initiated Sun Jan 30 03:21:09 2022 as: nmap -iL hosts -oN namp_basic_all_hosts.nmap
+Nmap scan report for ip-172-16-64-101.ca-central-1.compute.internal (172.16.64.101)
+Host is up (0.044s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+8080/tcp open  http-proxy
+9080/tcp open  glrpc
+MAC Address: 00:50:56:A2:7B:CD (VMware)
+
+Nmap scan report for ip-172-16-64-140.ca-central-1.compute.internal (172.16.64.140)
+Host is up (0.051s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:50:56:A2:4B:DA (VMware)
+
+Nmap scan report for ip-172-16-64-182.ca-central-1.compute.internal (172.16.64.182)
+Host is up (0.044s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 00:50:56:A2:10:F3 (VMware)
+
+Nmap scan report for ip-172-16-64-199.ca-central-1.compute.internal (172.16.64.199)
+Host is up (0.044s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1433/tcp open  ms-sql-s
+MAC Address: 00:50:56:A2:BA:22 (VMware)
+
+# Nmap done at Sun Jan 30 03:21:12 2022 -- 4 IP addresses (4 hosts up) scanned in 2.56 seconds
