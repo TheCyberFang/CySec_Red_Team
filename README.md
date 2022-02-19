@@ -38,7 +38,7 @@ Useful Extentions
         - HTTProbe
     1. Fingerprinting
         - OWASP ZAP
-        - NMAP
+        - Nmap
         - Wappalyzer
         - WhatWeb
         - BuiltWith
@@ -52,6 +52,13 @@ Useful Extentions
         - HaveIBeenPawned
         - Breach-Parse
         - WeLeakInfo
+    1. Additional Info
+        - https://securityheaders.com/
+        - https://www.ssllabs.com/ssltest/
+        - https://viewdns.info/
+        - https://dnschecker.org/
+        - https://www.site24x7.com/check-website-availability.html
+        - https://geopeeker.com/
 *** 
 ### Exploitation
 1. Automated Tools
