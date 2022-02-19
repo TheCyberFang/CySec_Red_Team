@@ -262,7 +262,7 @@ Proxychains Setup
 
 Install and configure proxychains
 
-tail /etc/proxychains.conf
+` tail /etc/proxychains.conf
 #socks4 	127.0.0.1 9050
 http 172.21.0.3  3128
-#<type: http/socks4/socks5> <proxy_host> <proxy_port>
+#<type: http/socks4/socks5> <proxy_host> <proxy_port> `
