@@ -1,4 +1,4 @@
-# Pivoting (https://nullsweep.com/pivot-cheatsheet-for-pentesters/)
+# Pivoting
 
 
 ## Method 1: Pivot with SSH & ProxyChains
