@@ -197,58 +197,65 @@
 
 ***
 ### Information Gathering / Scanning / Enumeration
-1. Physical / Social
-    1. Location Information
-        - Satellite Images
-        - Drone Recon
-        - Building Layouts
-    1. Job Information
-        - Employee information
-        - Email format
-        - Badge Design
-        - Hunter.io
-        - TheHarvester
-        - Social Media
-1. Digital
-    1. Target Validation
-        - WHOIS
-        - NSLOOKUP
-        - DNSRECON
-    1. Subdomain Hunting
-        - Google Fu
-        - Subist3r
-        - DIG
-        - NMAP
-        - Crt.sh
-        - Amass
-        - Recon-ng
-        - AssetFinder
-        - HTTProbe
-    1. Fingerprinting
-        - OWASP ZAP
-        - Nmap
-        - Wappalyzer
-        - WhatWeb
-        - BuiltWith
-        - NetCat
-        - Burp Suite
-        - WPScan
-        - Nikto
-        - DirBuster
-        - GoBuster
-    1. Sniffing
-        - Wireshark
-    3. Data Breach
-        - HaveIBeenPawned
-        - Breach-Parse
-        - WeLeakInfo        
+1. Location Information
+    - Satellite Images
+    - Drone Recon
+    - Building Layouts
+1. Job Information
+    - Employee information
+    - Email format
+    - Badge Design
+    - Social Media
+1. Emails
+    - Hunter.io
+1. Target Validation
+    - WHOIS
+    - NSLOOKUP
+    - DNSRECON
+1. Subdomain Hunting
+    - Google Fu
+    - Subist3r
+    - Dig
+    - Crt.sh
+    - Amass
+    - Recon-ng
+    - AssetFinder
+    - HTTProbe
+1. Fingerprinting
+    - OWASP ZAP
+    - Nmap
+    - Wappalyzer
+    - WhatWeb
+    - BuiltWith
+    - NetCat
+    - Burp Suite
+    - WPScan
+    - Nikto
+1. Content Discovery
+    - DirBuster
+    - GoBuster
+    - Burp Suite
+    - OWASP Zap
+    - TheHarvester
+    - Sparta
+    - Nikto
+1. Sniffing
+    - Wireshark
+1. Mapping
+    - MalteGo
+1. SSL Cert
+    - Securityheaders.io
+    - SSL Labs
+1. Data Breach
+    - HaveIBeenPawned
+    - Breach-Parse
+    - WeLeakInfo        
 *** 
 ### Exploitation
 1. Automated Tools
     - Nessus
     - OpenVAS
-    - SQLi
-    - Metasploit
+    - Nuclei
 1. Brute Force
     - Hydra
     - Burp Suite
@@ -256,26 +263,21 @@
     - OWASP ZAP
     - Metasploit
     - Medusa
+1. Password Cracking
+    - JohnTheRipper
+    - Hashcat
+1. SQL Injection
+    - SQLmap
+1. Exploits
+    - Exploit DB
+    - SearchSploit
+    - MSFConsole
+    - Nmap Scripting Engine
 1. Password Files
     - /etc/passwd (Linux)
     - /etc/shadow (Linux)
     - /var/www/html/wp-config.php (Wordpress Websites)
     - /etc/phpmyadmin/config-db.php (PHPMyAdmin Websites)
-1. Password Cracking
-    - JohnTheRipper
-    - Hashcat
-1. Exploits
-    - Exploit DB
-    - SearchSploit
-    - MSFConsole
-***
-### Privilege Escalations
-1. Windows
-    - WinPEAS
-    - PowerUP
-1. Linux
-    - LinPEAS
-    - LinENUM
 ***
 ### Post-Exploitation
 1. File Transfer
@@ -284,6 +286,13 @@
     - FTP
     - HTTP
     - Browser
+1. Privilege Escalations
+    1. Windows
+        - WinPEAS
+        - PowerUP
+    1. Linux
+        - LinPEAS
+        - LinENUM
 ***
 ### Useful URLs
 - https://github.com/swisskyrepo/PayloadsAllTheThings
