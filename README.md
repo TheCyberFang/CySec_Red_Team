@@ -295,6 +295,10 @@
         - LinENUM
 ***
 ### Useful URLs
+- https://gtfobins.github.io/
+- https://book.hacktricks.xyz/
+- https://pentestmonkey.net/category/cheat-sheet
+- https://rosettacode.org/wiki/Execute_a_system_command
 - https://github.com/swisskyrepo/PayloadsAllTheThings
 - http://shell-storm.org/shellcode/
 - https://0x00sec.org/t/linux-shellcoding-part-1-0/289
