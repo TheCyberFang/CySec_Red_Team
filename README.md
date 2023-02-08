@@ -296,6 +296,7 @@
 ***
 ### Useful URLs
 - https://gtfobins.github.io/
+- https://www.exploit-db.com/search
 - https://book.hacktricks.xyz/
 - https://pentestmonkey.net/category/cheat-sheet
 - https://rosettacode.org/wiki/Execute_a_system_command
